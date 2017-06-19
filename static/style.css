@@ -2,3 +2,25 @@ html {
     font-family: 'Roboto', sans-serif;
     line-height: 1.5em;
 }
+
+ul {
+	width:100%;
+	padding:0;
+}
+
+li {
+	list-style-type:none;
+}
+
+.emphasized {
+	background-color: #DCF0C2;
+}
+.list {
+	width:100%;
+}
+
+
+.todoForm, .well {
+	float:none;
+	margin:0 auto;
+}

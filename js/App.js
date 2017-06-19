@@ -21,7 +21,6 @@ class App extends React.Component {
     }
 
     render() {
-        console.log("rendering app component");
         return(
         <div>
             <Front/>

@@ -1,5 +1,5 @@
 /**
- * Created by Keno on 2/19/2016.
+ * Created by Dejun on 2/19/2016.
  */
 module.exports = {
     entry:"./js/App.js",
@@ -14,6 +14,10 @@ module.exports = {
                 test: /\.(js|jsx)$/,
                 loaders:['babel'],
                 exclude:[/node_modules/]
-            }]
+            },
+            {
+            test: /\.css$/,
+            loaders: [ 'style-loader', 'css-loader' ]
+        }]
     }
 };

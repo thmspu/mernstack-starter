@@ -14,8 +14,6 @@ app.use(express.static("static"));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
 
-mongoose.connect(config.database);
-
 app.use('/', router);
 
 app.get('/', function(req, res) {
